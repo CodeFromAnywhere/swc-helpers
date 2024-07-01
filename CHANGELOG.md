@@ -10,22 +10,6 @@ make todolist!
 
 ======
 
-Initial attempt at using swc to create a CRUD database that uses Typescript as it's storage, without further indexed storage.
-
-Given the speed of swc, this becomes a viable option, and this makes it possible to have a much faster and more stable typerepo!
-
-Also refactors become way easier this way and potentially it can be de foundation of a new IDE that lets you do alterations (with or without AI) to a huge codebase in with high speed and reliability
-
-Motivation:
-
-- good foundation for a framework for metacoding (code that writes code)
-- parse a statement dependency tree, file dependency tree, and operation dependency tree
-- simplify huge rewrites and refactors, e.g.:
-  - changing a functionName everywhere in the codebase
-  - moving statements around the codebase
-- make the migration to other programming languages or to other Javascript runtimes (e.g. bun.sh) easier
-- keep a strict convention of your code
-
 # Cleanup + dev experience goals
 
 Finish `swc-util` and replace `TsFunction`/`TsImport`/`TsExport`. This should:
@@ -74,13 +58,3 @@ Newest version doesn't work. I therefore have pinned version at `"@swc/core": "1
 # Update: july 1st 2024
 
 I've cleaned up my monorepo a bit more and turned this into a functioning standalone package. Of course, there's still a lot of trash inhere, but at least everything is accessible.
-
-# TODO Next time SWC
-
-remove all un-needed wrapping of things
-
-makeRelative is nothing
-
-generateRandomString is just half of the first line
-
-some are missing randomly... report when it can't be found
