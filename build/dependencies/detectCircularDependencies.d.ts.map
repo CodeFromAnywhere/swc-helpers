@@ -1,0 +1,1 @@
+{"version":3,"file":"detectCircularDependencies.d.ts","sourceRoot":"","sources":["../../src/dependencies/detectCircularDependencies.ts"],"names":[],"mappings":"AAGA;;;;;;;;;EASE;AACF,eAAO,MAAM,0BAA0B;;kBAEtB,MAAM,UACd,MAAM,EAAE,KACd,QAAQ,MAAM,EAAE,EAAE,GAAG,SAAS,CAmChC,CAAC"}

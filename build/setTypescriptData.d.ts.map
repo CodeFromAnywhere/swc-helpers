@@ -1,0 +1,1 @@
+{"version":3,"file":"setTypescriptData.d.ts","sourceRoot":"","sources":["../src/setTypescriptData.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,kBAAkB,EAAE,MAAM,kBAAkB,CAAC;AAEtD;;;;;;GAMG;AACH,eAAO,MAAM,iBAAiB,SACtB,kBAAkB,UAChB;IACN,gBAAgB,CAAC,EAAE,MAAM,CAAC;IAC1B,aAAa,CAAC,EAAE,MAAM,CAAC;IACvB,QAAQ,CAAC,EAAE,MAAM,CAAC;IAClB;;OAEG;IACH,OAAO,CAAC,EAAE,OAAO,CAAC;CACnB,SAIF,CAAC"}

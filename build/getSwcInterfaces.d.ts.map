@@ -1,0 +1,1 @@
+{"version":3,"file":"getSwcInterfaces.d.ts","sourceRoot":"","sources":["../src/getSwcInterfaces.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,UAAU,EAAE,MAAM,WAAW,CAAC;AAEvC,OAAO,EAAE,QAAQ,EAAE,YAAY,EAAe,MAAM,kBAAkB,CAAC;AAKvE;;GAEG;AACH,eAAO,MAAM,gBAAgB,QACtB,MAAM,kBACK,UAAU,EAAE,gBACd,MAAM,GAAG,SAAS,eACnB,MAAM,GAAG,SAAS,YACrB,QAAQ,KACjB,YAAY,EAoDd,CAAC"}

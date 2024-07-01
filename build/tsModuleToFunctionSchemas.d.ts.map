@@ -1,0 +1,1 @@
+{"version":3,"file":"tsModuleToFunctionSchemas.d.ts","sourceRoot":"","sources":["../src/tsModuleToFunctionSchemas.ts"],"names":[],"mappings":"AAAA,OAAO,EAGL,MAAM,EACN,UAAU,EACX,MAAM,WAAW,CAAC;AACnB,OAAO,EAAE,WAAW,EAAE,MAAM,aAAa,CAAC;AAI1C;;GAEG;AACH,eAAO,MAAM,yBAAyB,WAAY,MAAM;;;;2BAkE/B,MAAM;sBACX,OAAO;oBACT,WAAW;;;;;;sBA+BL,OAAO;iBACZ,MAAM;eACR,MAAM;cACP,UAAU;;CAOzB,CAAC"}
