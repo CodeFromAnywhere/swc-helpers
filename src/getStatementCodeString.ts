@@ -1,6 +1,6 @@
 import { getStatementIndex } from "./getStatementIndex.js";
-import { path } from "from-anywhere/node";
-import { projectRoot } from "from-anywhere/node";
+import path from "path";
+import { projectRoot } from "edge-util";
 import { getTypescriptFileData } from "./getTypescriptFileData.js";
 import { StatementIndex, StatementIndexItem } from "./types/types.js";
 

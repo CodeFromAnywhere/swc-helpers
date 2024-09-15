@@ -1,4 +1,4 @@
-import { writeToAssets } from "from-anywhere/node";
+import { writeToAssets } from "edge-util";
 import { getStatementWithDependenciesRecursive } from "./getStatementWithDependenciesRecursive.js";
 const operations = {};
 getStatementWithDependenciesRecursive(

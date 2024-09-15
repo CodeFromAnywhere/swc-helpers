@@ -1,8 +1,8 @@
 import { ModuleItem } from "@swc/core";
 import { VariableDeclaration } from "@swc/core";
-import { makeRelative } from "from-anywhere";
+import { makeRelative } from "edge-util";
 import { getRealSpan } from "./getRealSpan.js";
-import { notEmpty } from "from-anywhere";
+import { notEmpty } from "edge-util";
 import { FileSpan, SwcVariable } from "./types/types.js";
 /**
 TODO: get only names/locations and isExported :) it's enough

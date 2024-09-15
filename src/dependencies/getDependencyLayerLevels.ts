@@ -1,6 +1,6 @@
-import { writeToAssets } from "from-anywhere/node";
+import { writeToAssets } from "edge-util";
 import { getDependenciesPerOperation } from "./getDependenciesPerOperation.js";
-import { notEmpty } from "from-anywhere";
+import { notEmpty } from "edge-util";
 import { fileURLToPath } from "node:url";
 const __filename = fileURLToPath(import.meta.url);
 

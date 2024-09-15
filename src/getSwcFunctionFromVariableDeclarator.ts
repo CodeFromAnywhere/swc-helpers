@@ -1,7 +1,7 @@
 import { Declaration } from "@swc/core";
 import { ExportDeclaration } from "@swc/core";
 import { VariableDeclarator } from "@swc/core";
-import { makeRelative } from "from-anywhere";
+import { makeRelative } from "edge-util";
 import { getRealSpan } from "./getRealSpan.js";
 import { FileSpan, SwcFunction } from "./types/types.js";
 export const getSwcFunctionFromVariableDeclarator = (

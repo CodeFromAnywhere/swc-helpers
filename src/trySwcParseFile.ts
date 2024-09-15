@@ -1,4 +1,5 @@
-import { fs } from "from-anywhere/node";
+import fs from "fs";
+import path from "path";
 import { trySwcParse } from "./trySwcParse.js";
 import { SwcFileParse } from "./types/types.js";
 /**ugliest hack ever but it fixes the problem that dangles at the end aren't detected */
@@ -30,7 +31,7 @@ export const trySwcParseFile = async (
     };
   }
 
-  const src = await fs.readTextFile(absolutePath);
+  const src = await fs.promises.readFile(absolutePath, "utf8");
   const realSrc = withTrueSuffix(src);
   // console.log({ realSrc });
 

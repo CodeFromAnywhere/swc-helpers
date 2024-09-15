@@ -1,9 +1,9 @@
 import fs from "node:fs";
 const fsPromises = fs.promises;
-import { mapMany } from "from-anywhere";
+import { mapMany } from "edge-util";
 import { getDifferenceString } from "./getDifferenceString.js";
 import { diffLines } from "diff";
-import { notEmpty } from "from-anywhere";
+import { notEmpty } from "edge-util";
 import { getTypescriptData } from "../getTypescriptData.js";
 import { getGroupedImportsPerFile } from "./getGroupedImportsPerFile.js";
 import { getNewSrc } from "./getNewSrc.js";

@@ -1,5 +1,5 @@
-import { notEmpty } from "from-anywhere";
-import { onlyUnique2 } from "from-anywhere";
+import { notEmpty } from "edge-util";
+import { onlyUnique2 } from "edge-util";
 import { operationGetIndexedDependencies } from "./operationGetIndexedDependencies.js";
 /**
 

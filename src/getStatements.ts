@@ -1,17 +1,19 @@
-import { fs, path, readJsonFile } from "from-anywhere/node";
-import { makeRelative } from "from-anywhere";
-import { getOperationClassification, getProjectRoot } from "from-anywhere/node";
+import fs from "fs";
+import path from "path";
+import { readJsonFile } from "edge-util";
+import { makeRelative } from "edge-util";
+import { getOperationClassification, getProjectRoot } from "edge-util";
 import {
   createMappedKeysObject,
   createPromisedMappedKeysObject,
   makeArray,
   notEmpty,
   onlyUnique2,
-} from "from-anywhere";
-import { findOperationsInScope } from "from-anywhere/node";
-import { SchemaItem } from "from-anywhere/types";
+} from "edge-util";
+import { findOperationsInScope } from "edge-util";
+import { SchemaItem } from "edge-util";
 import { SwcImport, SwcStatement } from "./types/types.js";
-import { tryParseJson } from "from-anywhere";
+import { tryParseJson } from "edge-util";
 import { addStatementInfo } from "./addStatementInfo.js";
 import { getTypescriptData } from "./getTypescriptData.js";
 import { storeResult } from "./storeResult.js";

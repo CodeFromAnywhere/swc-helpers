@@ -1,7 +1,7 @@
-import { fs } from "from-anywhere/node";
-import { makeRelative } from "from-anywhere";
-import { getProjectRoot } from "from-anywhere/node";
-import { getObjectKeysArray } from "from-anywhere";
+import { fs } from "edge-util";
+import { makeRelative } from "edge-util";
+import { getProjectRoot } from "edge-util";
+import { getObjectKeysArray } from "edge-util";
 /**
  * Returns the operationName for a typescript file path.
  *

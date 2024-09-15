@@ -1,8 +1,8 @@
 import { ModuleItem } from "@swc/core";
 import { Span } from "@swc/core";
 import { FileSpan, SwcInterface, SwcVariable } from "./types/types.js";
-import { makeRelative } from "from-anywhere";
-import { notEmpty } from "from-anywhere";
+import { makeRelative } from "edge-util";
+import { notEmpty } from "edge-util";
 import { getModuleItemName } from "./getModuleItemName.js";
 import { getRealSpan } from "./getRealSpan.js";
 /**

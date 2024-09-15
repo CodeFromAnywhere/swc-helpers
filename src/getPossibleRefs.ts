@@ -1,5 +1,5 @@
-import { notEmpty } from "from-anywhere";
-import { SchemaItem } from "from-anywhere/types";
+import { notEmpty } from "edge-util";
+import { SchemaItem } from "edge-util";
 import { getSchema } from "schema-helpers";
 import { JSONSchema7 } from "json-schema";
 export const getPossibleRefs = (

@@ -1,8 +1,7 @@
-import { writeToAssets } from "from-anywhere/node";
-import { generateUniqueId } from "from-anywhere/node";
-import { getNewPerformance } from "from-anywhere/node";
-import { PerformanceItem } from "from-anywhere/node";
-import { cleanupTimer } from "from-anywhere/node";
+import { generateUniqueId } from "edge-util";
+import { getNewPerformance } from "edge-util";
+import { PerformanceItem } from "edge-util";
+import { cleanupTimer } from "edge-util";
 import { getSwcImports } from "./getSwcImports.js";
 const test = async () => {
   const executionId = generateUniqueId();
@@ -10,7 +9,7 @@ const test = async () => {
   getNewPerformance("start", executionId, true);
 
   const code = `
-    import { getLastFolder, path } from "from-anywhere/node";
+    import { getLastFolder, path } from "edge-util";
     import { operations } from "sdk-operations";
     import { getProjectRoot } from "./getProjectRoot.js";
     

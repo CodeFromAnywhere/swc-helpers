@@ -1,7 +1,7 @@
-import { makeRelative } from "from-anywhere";
-import { getFilenameTypescriptPath } from "from-anywhere/node";
-import { getProjectRoot } from "from-anywhere/node";
-import { StandardFunctionConfig } from "from-anywhere/types";
+import { makeRelative } from "edge-util";
+import { getFilenameTypescriptPath } from "edge-util";
+import { getProjectRoot } from "edge-util";
+import { StandardFunctionConfig } from "edge-util";
 import { getStatements } from "./getStatements.js";
 import { fileURLToPath } from "node:url";
 const __filename = fileURLToPath(import.meta.url);

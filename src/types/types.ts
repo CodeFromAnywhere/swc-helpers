@@ -1,15 +1,15 @@
 import type { ModuleItem } from "@swc/core";
 import type { Span } from "@swc/core";
-import { JSONSchema7Definition } from "json-schema";
-import { MappedObject } from "from-anywhere";
-import type { OperationClassification } from "from-anywhere/types";
-import type { TsInterfaceProperties } from "from-anywhere/types";
-import type { ModelConfig } from "from-anywhere/types";
-import type { OrmItem } from "from-anywhere/types";
-import type { FunctionParameter } from "from-anywhere/types";
-import type { StandardFunctionConfig } from "from-anywhere/types";
-import type { Schema, SimplifiedSchema } from "from-anywhere/types";
-import { SchemaItem } from "from-anywhere/types";
+import { JSONSchema7, JSONSchema7Definition } from "json-schema";
+import { MappedObject } from "edge-util";
+import type { OperationClassification } from "edge-util";
+import type { TsInterfaceProperties } from "edge-util";
+import type { ModelConfig } from "edge-util";
+import type { OrmItem } from "edge-util";
+import type { FunctionParameter } from "edge-util";
+import type { StandardFunctionConfig } from "edge-util";
+import type { SimplifiedSchema } from "edge-util";
+import { SchemaItem } from "edge-util";
 /**
  * Instance (NB: imports aren't done separetely)
  */
@@ -153,7 +153,7 @@ export type SwcFunction = OrmItem &
       /**
        * For now, this is only given if `[functionName]Response` is present in the file
        */
-      schema?: Schema;
+      schema?: JSONSchema7;
     };
 
     // /**

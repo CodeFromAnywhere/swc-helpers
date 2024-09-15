@@ -5,7 +5,7 @@ import {
   ModuleItem,
 } from "@swc/core";
 import { JSONSchema7 } from "json-schema";
-import { notEmpty, onlyUnique2 } from "from-anywhere";
+import { notEmpty, onlyUnique2 } from "edge-util";
 import { tsTypeToJsonSchema } from "./tsTypeToJsonSchema.js";
 
 /**

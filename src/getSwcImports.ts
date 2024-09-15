@@ -4,9 +4,9 @@ import { ImportNamespaceSpecifier } from "@swc/core";
 import { ModuleItem } from "@swc/core";
 import { NamedExportSpecifier } from "@swc/core";
 import { NamedImportSpecifier } from "@swc/core";
-import { makeRelative } from "from-anywhere";
-import { getObjectKeysArray } from "from-anywhere";
-import { isAbsoluteImport } from "from-anywhere";
+import { makeRelative } from "edge-util";
+import { getObjectKeysArray } from "edge-util";
+import { isAbsoluteImport } from "edge-util";
 import { getRealSpan } from "./getRealSpan.js";
 import { FileSpan, SwcImport } from "./types/types.js";
 /**

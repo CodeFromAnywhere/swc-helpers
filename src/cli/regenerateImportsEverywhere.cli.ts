@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import path from "node:path";
 import { regenerateImportsEverywhere } from "../imports/regenerateImportsEverywhere.js";
-import { writeToAssets } from "from-anywhere/node";
+import { writeToAssets } from "edge-util";
 import { fileURLToPath } from "node:url";
 
 const __filename = fileURLToPath(import.meta.url);

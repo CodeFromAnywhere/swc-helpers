@@ -1,9 +1,9 @@
-import { fs } from "from-anywhere/node";
+import fs from "fs";
 import path from "node:path";
-import { getProjectRoot } from "from-anywhere/node";
-import { makeArray } from "from-anywhere";
-import { notEmpty } from "from-anywhere";
-import { getFolderTypescriptFiles } from "from-anywhere/node";
+import { getProjectRoot } from "edge-util";
+import { makeArray } from "edge-util";
+import { notEmpty } from "edge-util";
+import { getFolderTypescriptFiles } from "edge-util";
 /**
  * Finds all typescript files in the provided basePath(s). If undefined, uses projectRoot. You can also provide specific files as part of the basePath
  */

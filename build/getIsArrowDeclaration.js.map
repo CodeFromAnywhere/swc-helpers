@@ -1,1 +1,0 @@
-{"version":3,"file":"getIsArrowDeclaration.js","sourceRoot":"","sources":["../src/getIsArrowDeclaration.ts"],"names":[],"mappings":"AAEA,MAAM,CAAC,MAAM,qBAAqB,GAAG,CACnC,UAAsB,EACa,EAAE;IACrC,OAAO,CACL,UAAU,CAAC,IAAI,KAAK,qBAAqB;QACzC,CAAC,CAAC,UAAU,CAAC,YAAY,CAAC,IAAI,CAC5B,CAAC,CAAC,EAAE,EAAE,CAAC,CAAC,CAAC,IAAI,EAAE,IAAI,KAAK,yBAAyB,CAClD,CACF,CAAC;AACJ,CAAC,CAAC"}

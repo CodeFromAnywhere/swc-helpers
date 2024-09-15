@@ -1,5 +1,5 @@
 import { findCircularDependency } from "./findCircularDependency.js";
-import { oneByOne } from "from-anywhere";
+import { oneByOne } from "edge-util";
 /**
  * DEPRECATED: `simpleCircularDependencyFinder` is better
  */

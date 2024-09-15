@@ -1,5 +1,5 @@
-import { path, readJsonFile } from "from-anywhere/node";
-import { getProjectRoot } from "from-anywhere/node";
+import fs from "fs";
+import path from "path";
 import { StatementIndex } from "./types/types.js";
 export const getStatementIndex = async () => {
   const projectRoot = getProjectRoot();

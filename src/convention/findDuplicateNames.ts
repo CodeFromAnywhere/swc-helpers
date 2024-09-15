@@ -1,6 +1,6 @@
-import { onlyDuplicates } from "from-anywhere";
-import { onlyUnique } from "from-anywhere";
-import { sum } from "from-anywhere";
+import { onlyDuplicates } from "edge-util";
+import { onlyUnique } from "edge-util";
+import { sum } from "edge-util";
 import { getTypescriptData } from "../getTypescriptData.js";
 import { SwcStatement } from "../types/types.js";
 export const statementNoSpecialFileFilter = (x: SwcStatement) => {

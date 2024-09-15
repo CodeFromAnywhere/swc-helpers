@@ -1,5 +1,5 @@
 import { Identifier, TsType } from "@swc/core";
-import { mergeObjectsArray, notEmpty } from "from-anywhere";
+import { mergeObjectsArray, notEmpty } from "edge-util";
 import { JSONSchema7, JSONSchema7TypeName } from "json-schema";
 
 export const tsKeywordTypeKindToJsonSchemaTypeName = (

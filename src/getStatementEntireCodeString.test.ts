@@ -1,4 +1,4 @@
-import { writeToAssets } from "from-anywhere/node";
+import { writeToAssets } from "edge-util";
 import { getStatementEntireCodeString } from "./getStatementEntireCodeString.js";
 const operations = {};
 getStatementEntireCodeString(operations, ["getTypescriptFileData"]).then(

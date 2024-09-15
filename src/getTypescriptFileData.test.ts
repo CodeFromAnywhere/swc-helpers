@@ -1,4 +1,4 @@
-import { StandardFunctionConfig } from "from-anywhere/types";
+import { StandardFunctionConfig } from "edge-util";
 import { getTypescriptFileData } from "./getTypescriptFileData.js";
 export function exportedRegularFunction() {
   console.log("Thing");

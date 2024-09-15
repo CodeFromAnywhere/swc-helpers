@@ -1,5 +1,5 @@
-import { ModelConfig } from "from-anywhere/types";
-import { OrmItem } from "from-anywhere/types";
+import { ModelConfig } from "edge-util";
+import { OrmItem } from "edge-util";
 export enum ImportsNotUsedAsValues {
   Remove = 0,
   Preserve = 1,

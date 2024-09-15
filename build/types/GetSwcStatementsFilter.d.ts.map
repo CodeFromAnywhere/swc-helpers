@@ -1,1 +1,0 @@
-{"version":3,"file":"GetSwcStatementsFilter.d.ts","sourceRoot":"","sources":["../../src/types/GetSwcStatementsFilter.ts"],"names":[],"mappings":"AAAA,MAAM,MAAM,sBAAsB,GAAG;IACnC;;;;;;OAMG;IACH,IAAI,CAAC,EAAE,MAAM,GAAG,MAAM,EAAE,CAAC;IAEzB;;OAEG;IACH,eAAe,CAAC,EAAE,OAAO,CAAC;IAE1B;;OAEG;IACH,uBAAuB,CAAC,EAAE,MAAM,GAAG,MAAM,EAAE,CAAC;CAC7C,CAAC"}

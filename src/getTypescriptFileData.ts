@@ -1,6 +1,6 @@
 //goal: fix all broken imports, then rebuild everything in the right order
-import { getProjectRoot } from "from-anywhere/node";
-import { destructureOptionalObject } from "from-anywhere";
+import { getProjectRoot } from "edge-util";
+import { destructureOptionalObject } from "edge-util";
 import { TypescriptFileConfig } from "./TypescriptFileConfig.js";
 import { getSwcFunctions } from "./getSwcFunctions.js";
 import { getSwcImports } from "./getSwcImports.js";

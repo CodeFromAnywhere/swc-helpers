@@ -1,5 +1,5 @@
 import { getDependenciesPerOperation } from "./getDependenciesPerOperation.js";
-import { mergeObjectsArray } from "from-anywhere";
+import { mergeObjectsArray } from "edge-util";
 /**
  * WORKS!!!!!
  *

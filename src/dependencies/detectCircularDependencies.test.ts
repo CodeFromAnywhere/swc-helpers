@@ -1,4 +1,4 @@
-import { writeToAssets } from "from-anywhere/node";
+import { writeToAssets } from "edge-util";
 import { detectCircularDependencies } from "./detectCircularDependencies.js";
 import { fileURLToPath } from "node:url";
 const __filename = fileURLToPath(import.meta.url);

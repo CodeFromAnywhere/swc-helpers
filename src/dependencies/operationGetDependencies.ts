@@ -1,9 +1,9 @@
-import { sourceFolderName } from "from-anywhere";
+import { sourceFolderName } from "edge-util";
 import path from "node:path";
-import { getProjectRoot } from "from-anywhere/node";
-import { notEmpty } from "from-anywhere";
-import { onlyUnique2 } from "from-anywhere";
-import { getFolderTypescriptFiles } from "from-anywhere/node";
+import { getProjectRoot } from "edge-util";
+import { notEmpty } from "edge-util";
+import { onlyUnique2 } from "edge-util";
+import { getFolderTypescriptFiles } from "edge-util";
 import { getTypescriptFileData } from "../getTypescriptFileData.js";
 /**
 Behavior:

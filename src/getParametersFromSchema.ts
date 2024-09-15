@@ -1,6 +1,6 @@
-import { FunctionParameter } from "from-anywhere/types";
-import { notEmpty } from "from-anywhere";
-import { SchemaItem } from "from-anywhere/types";
+import { FunctionParameter } from "edge-util";
+import { notEmpty } from "edge-util";
+import { SchemaItem } from "edge-util";
 import { getSchema } from "schema-helpers";
 import { simplifySchema } from "schema-helpers";
 import { removeStandardContextProperties } from "./custom/removeStandardContextProperties.js";

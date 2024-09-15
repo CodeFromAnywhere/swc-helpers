@@ -1,5 +1,5 @@
 import path from "node:path";
-import { getProjectRoot, readJsonFile } from "from-anywhere/node";
+import { getProjectRoot, readJsonFile } from "edge-util";
 import { getStatementIndex } from "./getStatementIndex.js";
 import { StatementIndex, SwcStatement } from "./types/types.js";
 let statementIndex: StatementIndex | null = null;

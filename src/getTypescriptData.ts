@@ -1,5 +1,5 @@
-import { getProjectRoot } from "from-anywhere/node";
-import { notEmpty } from "from-anywhere";
+import { getProjectRoot } from "edge-util";
+import { notEmpty } from "edge-util";
 import { TypescriptFileConfig } from "./TypescriptFileConfig.js";
 import { findTypescriptFiles } from "./findTypescriptFiles.js";
 import { getTypescriptFileData } from "./getTypescriptFileData.js";

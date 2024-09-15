@@ -1,7 +1,7 @@
 import { getStatementIndex } from "./getStatementIndex.js";
-import { path } from "from-anywhere/node";
-import { getProjectRoot } from "from-anywhere/node";
-import { notEmpty } from "from-anywhere";
+import path from "path";
+import { getProjectRoot } from "edge-util";
+import { notEmpty } from "edge-util";
 import { tryRequire } from "./tryRequire.js";
 import { StatementIndexItem } from "./types/types.js";
 /**

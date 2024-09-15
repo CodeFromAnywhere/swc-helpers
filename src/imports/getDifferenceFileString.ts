@@ -1,5 +1,5 @@
 import { Change } from "diff";
-import { notEmpty } from "from-anywhere";
+import { notEmpty } from "edge-util";
 export const getDifferenceFileString = (changes?: Change[]) => {
   if (!changes) {
     return undefined;

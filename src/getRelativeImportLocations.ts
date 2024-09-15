@@ -1,6 +1,6 @@
-import { fs } from "from-anywhere/node";
-import { path } from "from-anywhere/node";
-import { notEmpty } from "from-anywhere";
+import fs from "fs";
+import path from "path";
+import { notEmpty } from "edge-util";
 import { SwcImport } from "./types/types.js";
 export const getRelativeImportLocations = (
   imports: SwcImport[] | undefined,

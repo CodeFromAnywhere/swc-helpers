@@ -1,4 +1,4 @@
-import { mergeObjectsArray, notEmpty, onlyUnique2 } from "from-anywhere";
+import { mergeObjectsArray, notEmpty, onlyUnique2 } from "edge-util";
 import { getStatementWithDependenciesRecursive } from "./getStatementWithDependenciesRecursive.js";
 import { SwcImport } from "./types/types.js";
 

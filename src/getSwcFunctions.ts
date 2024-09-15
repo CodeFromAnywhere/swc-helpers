@@ -1,7 +1,7 @@
 import { Declaration } from "@swc/core";
 import { ExportDeclaration } from "@swc/core";
 import { ModuleItem } from "@swc/core";
-import { notEmpty } from "from-anywhere";
+import { notEmpty } from "edge-util";
 import { getIsArrowDeclaration } from "./getIsArrowDeclaration.js";
 import { getSwcFunctionsFromDeclaration } from "./getSwcFunctionsFromDeclaration.js";
 import { FileSpan, SwcFunction, SwcVariable } from "./types/types.js";

@@ -1,6 +1,6 @@
-import { Operation } from "from-anywhere/types";
+import { Operation } from "edge-util";
 import path from "node:path";
-import { getProjectRoot, readJsonFile } from "from-anywhere/node";
+import { getProjectRoot, readJsonFile } from "edge-util";
 /**
  * Get dependencies via package.json
  */

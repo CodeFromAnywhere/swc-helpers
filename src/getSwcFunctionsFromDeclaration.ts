@@ -1,6 +1,6 @@
 import { Declaration } from "@swc/core";
 import { ExportDeclaration } from "@swc/core";
-import { notEmpty } from "from-anywhere";
+import { notEmpty } from "edge-util";
 import { getSwcFunctionFromFunctionDeclaration } from "./getSwcFunctionFromFunctionDeclaration.js";
 import { getIsArrowDeclaration } from "./getIsArrowDeclaration.js";
 import { getSwcFunctionFromVariableDeclarator } from "./getSwcFunctionFromVariableDeclarator.js";

@@ -22,11 +22,11 @@
   "dependencies": {
     "@swc/core": "1.3.71",
     "diff": "^5.2.0",
-    "from-anywhere": "0.0.38",
-    "json-schema": "^0.4.0",
-    "marked-util": "^0.0.1",
     "prettier": "^3.0.2",
-    "schema-helpers": "^0.0.1"
+    "json-schema": "^0.4.0",
+    "edge-util": "^0.0.51",
+    "marked-util": "^0.0.5",
+    "schema-helpers": "^0.0.5"
   },
   "trustedDependencies": [
     "@swc/core"

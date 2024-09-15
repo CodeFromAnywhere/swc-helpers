@@ -1,10 +1,10 @@
-import { OperationClassification } from "from-anywhere/types";
-import { pascalCase } from "from-anywhere";
-import { path } from "from-anywhere/node";
-import { removeOptionalKeysFromObjectStrings } from "from-anywhere";
-import { SchemaItem, TypeInfo } from "from-anywhere/types";
+import { OperationClassification } from "edge-util";
+import { pascalCase } from "edge-util";
+import path from "path";
+import { removeOptionalKeysFromObjectStrings } from "edge-util";
+import { SchemaItem, TypeInfo } from "edge-util";
 import { getSchema, simplifySchema } from "schema-helpers";
-import { tryJsonStringify } from "from-anywhere";
+import { tryJsonStringify } from "edge-util";
 import { statementNoSpecialFileFilter } from "./convention/findDuplicateNames.js";
 import { getParametersFromSchema } from "./getParametersFromSchema.js";
 import { tryRequire } from "./tryRequire.js";

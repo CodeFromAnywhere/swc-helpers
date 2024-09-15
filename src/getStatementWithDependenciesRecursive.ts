@@ -1,6 +1,6 @@
 import { SwcImport } from "./types/types.js";
 import { getStatementCodeString } from "./getStatementCodeString.js";
-import { mergeObjectsArray, notEmpty } from "from-anywhere";
+import { mergeObjectsArray, notEmpty } from "edge-util";
 
 /**
 This recursive function gets a full list of all required statements including the unretreiveable statements as depdendencies, of any statement.

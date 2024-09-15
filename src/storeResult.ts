@@ -1,7 +1,9 @@
-import { fs, path, writeJsonToFile } from "from-anywhere/node";
-import { makeRelative } from "from-anywhere";
-import { getProjectRoot } from "from-anywhere/node";
-import { createMappedObject, mergeObjectsArray, notEmpty } from "from-anywhere";
+import fs from "fs";
+import path from "path";
+import { writeJsonToFile } from "edge-util";
+import { makeRelative } from "edge-util";
+import { getProjectRoot } from "edge-util";
+import { createMappedObject, mergeObjectsArray, notEmpty } from "edge-util";
 import {
   StatementIndex,
   StatementIndexItem,
@@ -9,9 +11,9 @@ import {
   SwcImport,
   SwcStatement,
 } from "./types/types.js";
-import { readJsonFile } from "from-anywhere/node";
-import { O } from "from-anywhere";
-import { lockAction } from "from-anywhere/node";
+import { readJsonFile } from "edge-util";
+import { O } from "edge-util";
+import { lockAction } from "edge-util";
 /**
  * Takes an absolute path to a json and a type generic and provides a map function with which you can alter that JSON (read, map, save)
  */

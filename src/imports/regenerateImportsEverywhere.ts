@@ -1,9 +1,9 @@
 import { getTypescriptData } from "../getTypescriptData.js";
 import { regenerateImports } from "./regenerateImports.js";
-import { getObjectKeysArray } from "from-anywhere";
-import { onlyUnique2 } from "from-anywhere";
-import { getRelativeLinkPath } from "from-anywhere/node";
-import { withoutExtension } from "from-anywhere";
+import { getObjectKeysArray } from "edge-util";
+import { onlyUnique2 } from "edge-util";
+import { getRelativeLinkPath } from "edge-util";
+import { withoutExtension } from "edge-util";
 import { statementNoSpecialFileFilter } from "../convention/findDuplicateNames.js";
 import { SwcImport } from "../types/types.js";
 /**
