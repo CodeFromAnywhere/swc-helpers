@@ -1,5 +1,4 @@
 import fs from "fs";
-import path from "path";
 import { trySwcParse } from "./trySwcParse.js";
 import { SwcFileParse } from "./types/types.js";
 /**ugliest hack ever but it fixes the problem that dangles at the end aren't detected */
@@ -72,6 +71,14 @@ export const trySwcParseFile = async (
 
   // console.log({ realSrc: realSrc.length, startDangleLength, endPosition });
   const endDangle = realSrc.slice(endPosition);
+
+  const fileSpan = {
+    ctxt: parseResult.span.ctxt,
+    start,
+    end,
+    startDangle,
+    parsedCode,
+  };
   // Newline allowed
   if (endDangle.length > 1) {
     //  console.log({ absolutePath, endDangle });
@@ -84,13 +91,7 @@ export const trySwcParseFile = async (
     src: realSrc,
     absolutePath,
     body: parseResult.body,
-    fileSpan: {
-      ctxt: parseResult.span.ctxt,
-      start,
-      end,
-      startDangle,
-      parsedCode,
-    },
+    fileSpan,
   };
 
   // console.log(parseResult.body);

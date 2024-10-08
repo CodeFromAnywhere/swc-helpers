@@ -1,4 +1,4 @@
-# dangle-fixing-span-problems
+# dangle-fixing-span-problems 12-4-2023
 
 I have tried the whole day to get this thing done (12-4-2023) However, there seem to be some severe limitations to this library.
 
@@ -9,7 +9,7 @@ I have tried the whole day to get this thing done (12-4-2023) However, there see
 
 A solution may be to ensure there are never any `endDangles`. We can then assume everything that is longer is a start dangle.
 
-## Update (14:17)
+**Update (14:17)**
 
 It is working. I successfully removed the need for tracking the offset of the previous file by calculating the dangle in a more simple way. I even succeeded to still calculate the end-dangle, but didn't add it yet.
 

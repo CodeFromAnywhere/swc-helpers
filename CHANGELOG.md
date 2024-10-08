@@ -58,3 +58,7 @@ Newest version doesn't work. I therefore have pinned version at `"@swc/core": "1
 # Update: july 1st 2024
 
 I've cleaned up my monorepo a bit more and turned this into a functioning standalone package. Of course, there's still a lot of trash inhere, but at least everything is accessible.
+
+# Update: october 8, 2024
+
+I've moved away from this package because there's lot of kingos legacy and experimentation that I did in here. I've moved to an API: swcapi that I'll expose as SaaS and use in uithub and npmjz. This repo `swc-helpers` is hereby deprecated

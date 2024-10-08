@@ -1,3 +1,5 @@
+> ### Update: october 8, 2024: I've moved away from this package because there's lot of kingos legacy and experimentation that I did in here. I've moved to an API: swcapi that I'll expose as SaaS and use in uithub and npmjz. This repo `swc-helpers` is hereby deprecated in favor of https://swcapi.com
+
 Initial attempt at using swc to create a CRUD database that uses Typescript as it's storage, without further indexed storage.
 
 Given the speed of swc, this becomes a viable option, and this makes it possible to have a much faster and more stable typerepo!
